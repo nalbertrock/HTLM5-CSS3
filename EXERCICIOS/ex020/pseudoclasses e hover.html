@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /*hover: ação que vai aparecer quando eu passar o mouse em cima
+
+        
+        active:mesma coisa que o primeiro porem quando eu clickar
+        */
+        div{
+            background-color: lightgray;
+            display: inline-block;
+            border: 2px solid black;
+            text-align: center;
+            height: 40px;
+            width: 200px;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: rgb(175, 0, 0);
+            
+        }
+        div:hover {
+            background-color: rgb(0, 255, 34);
+            height: 200px;
+           
+        }
+        div:hover{
+           background-color: rgb(0, 255, 21);
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            font-size: large;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+</body>
+</html>

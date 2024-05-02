@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links em </title>
+    <style>
+        /*
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a:visited{
+            color: rgb(0, 100, 139);
+        }
+        a:hover{
+            color: black;
+            
+        }
+        a:active{
+            color: red;
+        }
+        a::after{
+            content: '⇐';
+            color: rgb(0, 26, 255);
+         
+            
+        }
+        a::before{
+            content: '⇒';
+            color: rgb(76, 0, 255);
+            
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://twitter.com/home">Twitter</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>

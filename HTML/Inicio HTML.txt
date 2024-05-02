@@ -1,0 +1,23 @@
+=====COMANDOS PARA HTML=======
+
+
+TÍTULOS :
+
+<H1> -   (Há ("H"s) até o 6 a depen  | => CÓDIGO PARA TÍTULO  
+</H1> -   der do tamanho do titulo)   |
+
+PARAGRAFOS :
+
+<p> - (Abertura de tag)             |=> CODIGO PARA PÁRAGRAFOS
+</p>- (fechamento de tag)           | 
+
+IMAGEM: 
+
+<img src>                           |=> Não há fechamento de tag
+
+
+
+  
+
+  
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+
+
+            /*Simplificando border(shorthand) : 
+            border : (width) (style) (color)
+             */
+             border: 10px solid black;
+
+
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+
+            padding: 10px 10px 10px 10px;
+            /*Também podemos utilizar uma Shorthand para inserir e simplificar todas essas declarações de PADDING em uma única linha, exemplo: " padding: 15px 10px 10px 15px; "
+
+            OBSERVAÇÃO: Mesmo em shorthands como a do exemplo acima, os valores devem ser declarados na ordem orientada ( top, right, bottom e left ), para que consigamos nos nortear e especificar corretamente o espaçamento certo o para respectivo lado/sentido.*/
+
+            margin-top: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+            margin-right: 10px; 
+
+            margin: 10px 10px 40px 10px;
+             /*Também podemos utilizar uma Shorthand para inserir e simplificar todas essas declarações de MARGIN em uma única linha, exemplo: " margin: 15px 10px 10px 15px; "
+
+            OBSERVAÇÃO: Mesmo em shorthands como a do exemplo acima, os valores devem ser declarados na ordem orientada ( top, right, bottom e left ), para que consigamos nos nortear e especificar corretamente o espaçamento certo o para respectivo lado/sentido.*/           
+
+            outline-width: 5px;
+            outline-color: blueviolet;
+            outline-style: groove;
+
+            outline: 5px dashed salmon;
+
+            /*Também podemos utilizar uma Shorthand para inserir e simplificar todas essas declarações de OUTLINE em uma única linha, exemplo: " margin: 15px 10px 10px 15px; "
+
+            OBSERVAÇÃO: Mesmo em shorthands como a do exemplo acima, os valores devem ser declarados na ordem orientada ( width, style, color ), para que consigamos nos nortear e especificar corretamente o espaçamento certo o para respectivo lado/sentido.*/  
+        }
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+
+            padding: 20px;
+
+                     /* O elemento display tem duas formas são essas: caixa(block) e em linha (inline)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="https://www.google.com.br/?hl=pt-BR">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    
+</body>
+</html>

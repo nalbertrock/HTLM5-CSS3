@@ -1,0 +1,25 @@
+ESTRUTURA BÁSICA DE UM DOCUMENTO HTML
+
+<!DOCTYPE html>                     |=> (AQUI DECLARAMOS QUE VOCÊ VAI DESENVOLVER UM SITE EM HTML5)
+<html lang="pt-br>                  |=> (AQUI DECLARAMOS QUAL VAI SER A LINGUA PRIMORDIAL DO SITE EM DESENVOLVIMENTO)
+    <head>                          |=> (É DENTRO DO "HEAD" QUE FICA AS CONFIGURAÇÕES DO SITE)
+        <meta charset="UTF-8">      |=> (AQUI ESTAMOS INDICANDO QUE O SITE VAI SUPORTAR CARACTERES ESPECIAIS COMO:(ç,´, `,^)
+        <meta name="viewport"
+	content="width=devide=widht,|=> (INDICA QUE O SITE VAI SER EXIBIDO EM 100% DA PARTE BRANCA NUMA ESCALA DE 100%)
+	initial-scale=1.0">
+ 
+
+
+
+
+
+
+    </head>
+    <body>                       |=> (É DENTRO DO BODY QUE FICA O CONTEÚDO DO SITE)
+    	<h1>Olá, Mundo!</h1>     
+ 
+
+    </body>
+</html>	
+
+

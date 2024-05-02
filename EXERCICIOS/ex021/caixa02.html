@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags e sombras</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 2px 0px 20px -3px black;
+        
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px 10px 0px 10px ;
+            border-radius: 20px; /* ou 20px 20px 20px 20px*/
+            box-shadow: 5px 7px 20px -3px black;
+        }
+        h1{
+            font-weight: 700;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            /*Aqui vamos aplicar o conceito de box-shadow (Sombras)
+            nesse exemplo podemos usar o dev tools do crhome para uma melhor visualização*/
+            background-color: gray;
+            height: 20px;
+            box-shadow: 1px 6px 18px -4px black;
+            border-radius: 20px; /* ou 20px 20px 20px 20px*/
+              
+        }
+        nav > a {
+            text-decoration: none;
+            padding: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 10px;;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article{
+            background-color: lightgray;
+            width: 700px;
+        }
+        article > p {
+            background-color: rgb(209, 205, 205);
+            width: 500px;
+            margin-left: 10px;
+        }
+        article > aside {
+            background-color: rgb(153, 153, 153);
+        }
+
+        /* Agora vamos fazer uma bola branca com css*/
+        div{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">Esporte > Politica > tecnologia</section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, officia recusandae nemo quos quaerat optio commodi, ut laboriosam consequatur blanditiis non enim explicabo voluptas quam excepturi, deserunt cum nihil sequi.
+                        <aside>
+                            <p>Artigo escrito por José da Silva</p>
+                        </aside>
+                    </p>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em vídeo</p>
+    </footer>
+    <div></div> 
+   
+    
+</body>
+</html>
