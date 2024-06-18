@@ -1,2 +1,0 @@
-Dominio- nome que indentifica o seu site
-Hospedagem- Local que o seu site vai estar hospedado
