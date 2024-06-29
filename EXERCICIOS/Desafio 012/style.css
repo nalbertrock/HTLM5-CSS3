@@ -6,6 +6,7 @@ header{
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 20px;
 }
 a:visited{
     color: inherit;
