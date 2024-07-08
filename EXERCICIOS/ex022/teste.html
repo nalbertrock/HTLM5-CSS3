@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Header */
+header {
+  position: relative;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+/* Background Image (Parallax Layer 1) */
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  transform: translateY(50%); /* 50% vertical displacement */
+}
+
+/* Main Content */
+main {
+  position: relative;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
