@@ -1,127 +1,78 @@
-body{
-  
-  margin: 0;
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root{
+  --font1:  Verdana, Geneva, Tahoma, sans-serif;
+  --font2:  "Passion One", sans-serif;
+  --font3:  "Sriracha", cursive;
 
 }
 
+
+html, body{
+  min-height: 100vh;
+  background-color: rgb(110, 110, 110);
+  font-family: var(--font1);
+}
 header{
   background-color: black;
   color: white;
-  text-align:center;
-  
+  text-align: center;
+  padding-bottom:20px ;
 }
-a{
+header>h1{
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: var(--font2);
+  font-size: 10vw;
+}
+header > p {
+  padding-bottom: 50px;
+}
+a{color: white;
   text-decoration: none;
+  font-weight: bolder;
 }
-a:visited{
+a:hover{
+  text-decoration: underline;
+}
+
+section{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 30px;
+  font-family: var(--font3);
+  font-size: 3.5vw;
+}
+.normal{
+  background-color: white;
+  color: rgb(0, 0, 0);
+
+}
+.imagem{
+  background-color: rgb(70, 70, 70);
   color: white;
-  text-decoration: none;
-
+  
 }
-main{
-
-}
-#q1{
-  position: relative;
-  border-radius: 5px;
-  border-color: aqua;
-  border-width: 2px;
-  border-width: 2px;
-  height: 50vh;
-  background-color: rgb(255, 255, 255);
-  margin:  0px 0px 40px 0px;
-
+.imagem> p{
+  background-color: rgba(0, 0, 0, 0.404);
+  display: inline-block;
+  padding: 5px;
 
 }
 
-#q3,#q5{
-  position: relative;
-  border-radius: 5px;
-  border-color: aqua;
-  border-width: 2px;
-  border-width: 2px;
-  height: 80vh;
-  background-color: rgb(255, 255, 255);
-  margin:  0px 0px 40px 0px;
-  
- 
-}
-#q2{ 
-  background-image: url(imagens/background001.jpg);
-  
-  position: relative;
-
-  margin:  40px 0px 40px 0px;
-  background-position: center right;
-  background-attachment: fixed;
-  max-height: fit-content;
-  height: 80vh;
-  
-
-  
-}
-#q4{
-  background-image: url(imagens/background002.jpg);
-  
-  position: relative;
-  
-
-  margin:  40px 0px 40px 0px;
-  background-position: center center;
-  background-attachment: fixed;
-  max-height: fit-content;
-  height: 80vh;
 
 
-}
-#textbox1,#textbox3,#textbox5{
-  
-  position: absolute;
-  min-width: 300px;
-  max-width: 300px;
-  width: 30vw;
-  background-color: rgb(255, 255, 255);
-  top: 2%;
-  height: fit-content;
-  color: black;
-  font-family: 'Gentium Book Basic', serif;
-  font-weight: bold;
-  font-size: 1.6em;
-  line-height: 1.7;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: #333; /* Preto */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  border: 1px solid #ddd; /* Borda fina */
-  padding: 10px; /* Espaçamento interno */
-  
-  
-  
-}
-#textbox2,#textbox4{
-  position: absolute;
-  min-width: 300px;
-  max-width: 300px;
-  width: 30vw;
-  background-color: rgba(70, 68, 68, 0.281);
-  top: 12%;
-  color: rgb(255, 255, 255);
-  font-family: 'Gentium Book Basic', serif;
-  font-weight: bold;
-  font-size: 1.6em;
-  line-height: 1.7;
-  letter-spacing: 0.2px;
-  text-align: left;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  border: 1px solid #ddd; /* Borda fina */
-  padding: 10px; /* Espaçamento interno */
-  
-
-
-
-}
 footer{
   background-color: black;
   color: white;
   text-align: center;
+  padding: ;
 }
