@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telefone e email e bordas no forms </title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action=" ">
+        <fieldset>  
+        <legend>Dados do Usuário</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" maxlength="35" required>
+            </p>
+            <p>
+                <label for="imail">Email</label>
+                <input type="email" name="mail" id="imail" autocomplete="email" required>
+            
+            </p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="telefone" id="itel" autocomplete="tel" required pattern="^(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xxxxx)-(xxxx)">
+            <!-- Estudar mais sobre RegEx -->
+        </fieldset>
+        
+        <p><input type="submit"> <input type="reset" value="Limpar"> </p>
+    </form>
+</body>
+</html>
