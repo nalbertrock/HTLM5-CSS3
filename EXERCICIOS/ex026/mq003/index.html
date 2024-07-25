@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query para celular (em pé e deitado)</title>
+    <style>
+        /* Declarações gerais*/
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        html, body{
+            width: 100%;
+            height: 100%;
+            background-color: #233EFF;
+        }
+
+        /* Declarações portrait*/
+        @media screen  and (orientation: portrait){
+            
+        body{ 
+            background-image: url(../imagens/cev-portrait.jpg);
+            background-position: left bottom ;
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+            
+        }
+
+        /* Declarações Landscape */
+        @media screen  and (orientation: landscape){
+        body{
+            background-image: url(../imagens/cev-landscape.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position:left bottom ;
+    
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
