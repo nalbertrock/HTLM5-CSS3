@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias*/
+
+/* Typical Device Breakpoints
+
+Mobile devices – até 600px.
+iPads, Tablets – 601px até 768px.
+Small screens, laptops – 769px até 1024px.
+Desktops, large screens – 1025px até 1200px.
+Extra large screens, TV – 1201px pra cima
+
+*/
+
+@media print { /* Impressora */
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /* Tablet */
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) { /* Desktop */
+    /* Suas regras de estilo aqui */
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+}
+
+@media screen and (min-width: 1201px) { /* Grandes Telas */
+    /* Suas regras de estilo aqui */
+
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
+}
