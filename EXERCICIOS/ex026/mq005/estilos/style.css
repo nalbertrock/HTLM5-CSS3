@@ -12,13 +12,33 @@ html,body{
 header{
     background-color: rgb(155, 154, 154);
 }
+#iconmenu{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#iconmenu:hover{
+    background-color: rgb(61, 73, 85);
+    color: black;
+}
+a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+    
+}
 header h1 {
     text-align: center;
     padding: 10px;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 menu>ul{
     list-style-type: none;
